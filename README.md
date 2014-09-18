@@ -1,8 +1,8 @@
 # Guía de la Instructura: ThinkHub en CaixaForum Zaragoza
 
-Carlos Val Gascón carlos.val@bifi.es
+**Carlos Val Gascón carlos.val@bifi.es**
 
-System Administrator
+**System Administrator**
 
 ## Introducción
 En esta guía vamos a ver las diferentes configuraciones seguidas para 
