@@ -24,3 +24,9 @@ red interna que se creará para el evento. Este ordenador tendrá la finalidad
 de hacer de proxy (con un servicio squid) a Internet y de cortar todas las 
 demás conexiones. Además se leventará un servicio de dhcp para que todos los 
 ordenadores conectados compartan una misma red local.
+
+### Firewal
+
+### DHCP
+
+### Squid
