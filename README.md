@@ -45,3 +45,5 @@ Al los equipos dentro de la red solo se les permitira:
 - [ ] Traducir los mensajes de error del squid con logos de Ibercivis.
 - [ ] Que no haya que configurar el proxy y que coja por defeto el gateway.
 
+
+Carlos Val Gascón
