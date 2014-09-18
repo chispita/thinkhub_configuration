@@ -38,3 +38,10 @@ Al los equipos dentro de la red solo se les permitira:
 
 ### Squid
  - [Configuration] (squid.conf)
+
+## Tareas
+- [X] Reglas del Firewall
+- [ ] Hacer que el dns interno responda a la ip del proxy.
+- [ ] Traducir los mensajes de error del squid con logos de Ibercivis.
+- [ ] Que no haya que configurar el proxy y que coja por defeto el gateway.
+
