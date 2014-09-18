@@ -1,9 +1,14 @@
 #!/bin/sh
-## SCRIPT de IPTABLES 
-## 
-## Maquina con squid instalado para el filtrado de paquetes
-##
-##
+#################################################################
+#
+# SCRIPT de IPTABLES 
+# 
+# Maquina con squid instalado para el filtrado de paquetes
+#
+# Carlos Val Gascón carlos.val@bifi.es
+# 18/Oct/2014
+#
+#################################################################
 
 printf "Aplicando Reglas de Firewall...\n"
 
