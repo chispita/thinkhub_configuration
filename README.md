@@ -41,11 +41,14 @@ Al los equipos dentro de la red solo se les permitira:
  - [Configuration] (dhcpd.conf)
 
 ### Squid
+Configuramos como modo transparente de forma que el servidor proxy estara antes 
+justo antes del router, por lo que todo el tráfico que vaya hacia el va a pasar
+por le servidor. Al estar en medio el usuario no tendrá que configurar nada.
  - [Configuration] (squid.conf)
 
 ## Tareas
 - [X] Reglas del Firewall
-- [ ] Hacer que el dns interno responda a la ip del proxy.
+- [X] Hacer que el dns interno responda a la ip del proxy.
 - [ ] Traducir los mensajes de error del squid con logos de Ibercivis.
-- [ ] Que no haya que configurar el proxy y que coja por defeto el gateway.
+- [X] Que no haya que configurar el proxy y que coja por defeto el gateway.
 
