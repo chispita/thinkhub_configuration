@@ -1,5 +1,8 @@
 # Guía de la Instructura: ThinkHub en CaixaForum Zaragoza
 
+Carlos Val Gascón carlos.val@bifi.es
+System Administrator
+
 ## Introducción
 En esta guía vamos a ver las diferentes configuraciones seguidas para 
 la creación de la insfractructura necesaria para el experimento 
@@ -45,5 +48,3 @@ Al los equipos dentro de la red solo se les permitira:
 - [ ] Traducir los mensajes de error del squid con logos de Ibercivis.
 - [ ] Que no haya que configurar el proxy y que coja por defeto el gateway.
 
-
-Carlos Val Gascón
