@@ -28,6 +28,7 @@ ordenadores conectados compartan una misma red local.
 ### Firewal
 
 ### DHCP
+ - [Configuration] (dhcpd.conf)
 
 ### Squid
- - [Configuration] (dhcpd.conf)
+ - [Configuration] (squid.conf)
