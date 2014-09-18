@@ -30,3 +30,4 @@ ordenadores conectados compartan una misma red local.
 ### DHCP
 
 ### Squid
+ - [Configuration] (dhcp.conf)
