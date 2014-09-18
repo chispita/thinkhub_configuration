@@ -26,6 +26,12 @@ demás conexiones. Además se leventará un servicio de dhcp para que todos los
 ordenadores conectados compartan una misma red local.
 
 ### Firewal
+Al los equipos dentro de la red solo se les permitira:
+ - Hacer ping a máquinas remotas.
+ - Hacer peticiones dns.
+ - Acceder a páginas web a través de un proxy.
+
+ - [Configuration] (iptables.sh)
 
 ### DHCP
  - [Configuration] (dhcpd.conf)
