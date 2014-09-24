@@ -17,8 +17,8 @@ LAN="eth0"
 INTERNET="eth1"
 FIREWALL="lo"
 
-NETWORK_INT="192.168.0.0/24"
-SQUID_SERVER="192.168.0.1"
+NETWORK_INT="192.168.1.0/24"
+SQUID_SERVER="192.168.1.1"
 SQUID_PORT="3128"
 
 ## FLUSH de reglas
@@ -47,8 +47,8 @@ iptables -A INPUT -s $NETWORK_INT -i $LAN -j ACCEPT
 iptables -A OUTPUT -s $NETWORK_INT -o $LAN -j ACCEPT
 
 # Estable el equipo como router para el resto de la LAN
-iptables --table nat --append POSTROUTING --out-interface $INTERNET -j MASQUERADE
-iptables --append FORWARD --in-interface $LAN -j ACCEPT
+#iptables --table nat --append POSTROUTING --out-interface $INTERNET -j MASQUERADE
+#iptables --append FORWARD --in-interface $LAN -j ACCEPT
 
 # Redirigimos las llamadas al puerto 80 al equipo local puerto 3128
 #iptables -t nat -A PREROUTING -i $LAN -p tcp --dport 80 -j REDIRECT --to-port $SQUID_PORT
